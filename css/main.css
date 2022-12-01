@@ -882,6 +882,10 @@ video {
   transition-timing-function: linear;
 }
 
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
 body {
   background-image: url("../img/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
