@@ -872,6 +872,16 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-linear {
+  transition-timing-function: linear;
+}
+
 body {
   background-image: url("../img/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
@@ -921,7 +931,7 @@ body {
 }
 
 .hamburger-bottom {
-  transform: translateY(7px);
+  transform: translateY(14px);
 }
 
 .open {

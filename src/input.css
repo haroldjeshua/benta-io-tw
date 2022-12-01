@@ -24,7 +24,6 @@ body {
     background-image: url("../img/bg-simplify-section-mobile.svg");
   }
 }
-
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -50,7 +49,7 @@ body {
 }
 
 .hamburger-bottom {
-  transform: translateY(7px);
+  transform: translateY(14px);
 }
 
 .open {
